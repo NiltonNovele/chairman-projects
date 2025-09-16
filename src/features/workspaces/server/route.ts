@@ -52,7 +52,7 @@ const app = new Hono()
       // const storage = c.get("storage");
       const user = c.get("user");
 
-      const { name } = c.req.valid("form"); //const { name, image } = c.req.valid("form");
+      const { name } = c.req.valid("form"); // const { name, image } = c.req.valid("form");
 
       // let uploadedImageUrl: string | undefined;
 
@@ -104,7 +104,7 @@ const app = new Hono()
       const user = c.get("user");
 
       const { workspaceId } = c.req.param();
-      const { name } = c.req.valid("form"); //const { name, image } = c.req.valid("form");
+      // const { name } = c.req.valid("form"); // const { name, image } = c.req.valid("form");
 
       const member = await getMember({
         databases,
