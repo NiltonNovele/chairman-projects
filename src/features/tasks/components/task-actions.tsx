@@ -28,7 +28,7 @@ export const TaskActions = ({ children, id, projectId }: TaskActionsProps) => {
   const [ConfirmDialog, confirm] = useConfirm(
     "Apagar tarefa",
     "Esta ação não pode ser anulada.",
-    "destrutivo"
+    "destructive"
   );
   const { mutate, isPending } = useDeleteTask();
 

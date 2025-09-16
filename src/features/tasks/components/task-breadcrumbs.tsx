@@ -24,7 +24,7 @@ export const TaskBreadcrumbs = ({ project, task }: TaskBreadcrumbsProps) => {
   const [ConfirmDialog, confirm] = useConfirm(
     "Apagar tarefa",
     "Esta ação não pode ser anulada.",
-    "destrutivo"
+    "destructive"
   );
 
   const { mutate, isPending } = useDeleteTask();
