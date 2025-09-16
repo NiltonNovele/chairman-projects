@@ -49,13 +49,13 @@ export const EditWorkspaceForm = ({
   const [DeleteDialog, confirmDelete] = useConfirm(
     "Apagar espaço de trabalho",
     "Esta ação não pode ser anulada.",
-    "destrutivo"
+    "destructive"
   );
 
   const [ResetDialog, confirmReset] = useConfirm(
     "Repor link de convite",
     "Isto invalidará o link de convite atual.",
-    "destrutivo"
+    "destructive"
   );
 
   const handleDelete = async () => {

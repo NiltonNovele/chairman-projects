@@ -45,7 +45,7 @@ export const EditProjectForm = ({
   const [DeleteDialog, confirmDelete] = useConfirm(
     "Apagar projeto",
     "Esta ação não pode ser anulada.",
-    "destrutivo"
+    "destructive"
   );
 
   const handleDelete = async () => {
